@@ -1,0 +1,32 @@
+# Python / Virtual Environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ML Checkpoints / Output Logs / Artifacts
+catboost_info/
+results/
+*.log
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# Data files (Exclude large CSV dataset files if desired)
+# Uncomment the line below if bank-full.csv / bank.csv should not be tracked by git:
+# *.csv
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
