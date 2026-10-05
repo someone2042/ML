@@ -23,7 +23,12 @@ python -m venv env
 .\env\Scripts\Activate.ps1
 ```
 
-Install requirements (e.g., `pandas`, `scikit-learn`, `lightgbm`, `xgboost`, `catboost`, `optuna`).
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
 
 ### 2. Running Training Pipelines
 
